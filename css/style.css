@@ -395,6 +395,7 @@ nav {
     gap: 25px;
 
 }
+
 .icon_blue img {
     width: 18px;
     display: block;
@@ -402,14 +403,15 @@ nav {
     margin-top: 45px;
     border-bottom: solid #FFF;
 }
+
 .icon_blue span {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 20px;
-color: #FFFFFF;
-width: 167px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 167px;
 }
 
 .icon span {
@@ -430,92 +432,172 @@ width: 167px;
     line-height: 20px;
     color: rgba(16, 16, 16, 0.5);
 }
+
 .manager {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .manager label {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-color: #727272;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #727272;
 }
+
 .manager span {
-font-weight: 500;
+    font-weight: 500;
 }
+
 .accelerator {
     margin-top: 100px;
     box-sizing: border-box;
+    margin-bottom: 100px;
 }
+
 .accelerator p {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
 }
+
 .program_menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+
 .program_menu div {
     background: #FFFFFF;
-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
-border-radius: 10px;
-height: 284px;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 30px;
-padding-top: 67px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 67px;
 }
-.program_menu div img{
- height: 95px;
+
+.program_menu div img {
+    height: 95px;
 }
+
 .program_menu div span {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 120px;
-line-height: 95px;
-text-align: center;
-background: linear-gradient(143.71deg, #8BD7DC 21.17%, #1246A9 127.82%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 95px;
+    text-align: center;
+    background: linear-gradient(143.71deg, #8BD7DC 21.17%, #1246A9 127.82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .program_video {
     margin-top: 20px;
     height: 675px;
     background: #0F0F0F;
-border-radius: 10px;
-display: flex;
-align-items: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 
 }
+
 .program_video div {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .program_video p {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 60px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
 }
+
 .sircle {
     width: 114.51px;
-height: 113px;
-background: #4C8EF0;
-border-radius: 50%;
+    height: 113px;
+    background: #4C8EF0;
+    border-radius: 50%;
 }
 
 .sircle img {
     margin: 0 auto;
-    margin-top: calc(50%-19px);
     display: flex;
+}
+.program_accelerator {
+    margin-bottom: 105px;
+}
+.module {
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.module_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #2A79C2;
+    margin-right: 15px;
+}
+
+.module div {
+    margin-left: 50px;
+}
+
+.module span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.module_btn {
+    width: 39px;
+    height: 39px;
+    background: #2A79C2;
+    border-radius: 50%;
+    border: none;
+    margin-right: 31px;
+}
+
+.module_btn p {
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    -webkit-transform: rotate(45deg);
+}
+
+.program_btn {
+    width: 377px;
+    height: 70px;
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
 }
