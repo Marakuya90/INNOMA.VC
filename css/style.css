@@ -709,3 +709,51 @@ margin-left: 10px;
 .dropdown-menu ul li:last-child {
     color: #2A79C2;
 }
+.result {
+    margin: 0 auto;
+    width: 1216px;
+}
+.result_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 14px;
+
+}
+.result_card_item {
+    width: 392px;
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.result_num {
+width: 87px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 80px;
+color: rgba(17, 120, 178, 0.5);
+}
+
+.result_title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+}
+
+.result_card_item p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+}
