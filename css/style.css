@@ -605,6 +605,7 @@ nav {
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
+    padding: 0;
 }
 
 .investors {
@@ -809,6 +810,7 @@ nav {
 .card_product_item ol {
     margin: 0;
 }
+
 .list_title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -818,6 +820,7 @@ nav {
     margin: 0;
     padding-left: 20px;
 }
+
 .card_product_item li {
     font-family: 'Montserrat';
     font-style: normal;
@@ -831,8 +834,46 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+
 .card_main {
     width: 100%;
     height: 281px;
     border-bottom: 1px solid #E3E3E3;
+}
+
+.card_total_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.card_total {
+    width: 100%;
+}
+
+.light {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.color {
+    font-weight: 700;
+    color: #1178B2;
+}
+
+.card_total_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.border_bot {
+    border: 1px solid #E3E3E3;
+}
+
+.margin_btn {
+    margin: 25px 40px;
 }
