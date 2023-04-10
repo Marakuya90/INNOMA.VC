@@ -773,7 +773,7 @@ nav {
     text-align: center;
 }
 
-.price {
+.basic_size {
     width: 1216px;
     margin: 0 auto;
 }
@@ -874,6 +874,30 @@ nav {
     border: 1px solid #E3E3E3;
 }
 
-.margin_btn {
-    margin: 25px 40px;
+.small_btn {
+    width: 317px;
+    margin: 25px 0 35px 0;
+}
+.diagram {
+    width: 585px;
+    height: 459px;
+}
+.about {
+    display: flex;
+    gap: 66px;
+}
+.about_us_discription {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+margin-top: 107px;
+}
+.span_clr {
+    color: #1178B2;
+    font-weight: 600;
+}
+.founder_foto {
+    background-image: url(/img/poman_decoration.svg);
 }
