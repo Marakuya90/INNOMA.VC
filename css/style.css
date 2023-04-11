@@ -878,26 +878,95 @@ nav {
     width: 317px;
     margin: 25px 0 35px 0;
 }
+
 .diagram {
     width: 585px;
     height: 459px;
 }
+
 .about {
     display: flex;
     gap: 66px;
 }
+
 .about_us_discription {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-margin-top: 107px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 107px;
 }
+
 .span_clr {
     color: #1178B2;
     font-weight: 600;
 }
+
+.founder {
+    width: 1213px;
+    margin-top: 125px;
+    display: flex;
+    gap: 115.76px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+
 .founder_foto {
-    background-image: url(/img/poman_decoration.svg);
+    position: relative;
+    margin-left: 68.15px;
+}
+
+.decoration {
+    position: absolute;
+    z-index: -1;
+    width: 374.88px;
+    height: 402px;
+    top: 20px;
+    left: 1px;
+}
+
+.foto {
+    width: 374.88px;
+    height: 402px;
+}
+
+.letter {
+    margin: 47px 40px 43px 0;
+}
+
+.letter p {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.letter_sign {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.letter_sign span {
+    font-weight: 500;
+}
+
+.letter_p {
+    margin-bottom: 47px;
+}
+.foto_slider {
+    margin-top: 100.23px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 7.88px;
+}
+.foto_presentation {
+    width: 236.3px;
+height: 157.53px;
+border-radius: 10px;
 }
