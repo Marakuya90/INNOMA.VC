@@ -633,7 +633,7 @@ nav {
     position: relative;
 }
 
-.lebels {
+.labels {
     display: grid;
     grid-template: 1fr 1fr 1fr/1fr 1fr;
     row-gap: 10px;
@@ -679,7 +679,7 @@ nav {
     color: #FFFFFF;
 }
 
-.lebels_logo {
+.labels_logo {
     background-color: #FFFFFF;
     width: 205.85px;
     height: 111.93px;
@@ -690,7 +690,7 @@ nav {
     justify-content: center;
 }
 
-.lebels_logo img {
+.labels_logo img {
     width: 55%;
 }
 
@@ -1014,4 +1014,67 @@ nav {
     font-size: 15px;
     line-height: 20px;
     text-align: center;
+}
+
+.partners {
+    margin-bottom: 100px;
+}
+
+.partners_labels {
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.partners_label {
+    width: 288px;
+    height: 100px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners_label_img {
+    height: 50%;
+}
+
+.partners_banner {
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(/img/partners_banner.png);
+    background-size: 105%;
+    background-position-y: -311px;
+    background-position-x: -28px;
+    height: 563px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.partners_banner h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    line-height: 60px;
+  margin-bottom: 0;
+}
+
+.partners_banner p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+   
+}
+
+.partners_banner button {
+    width: 317px;
+    height: 70px;
 }
