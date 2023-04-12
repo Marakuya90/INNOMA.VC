@@ -29,7 +29,7 @@ body {
     font-family: Montserrat;
 }
 
-nav {
+.header_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -776,7 +776,7 @@ nav {
 .basic_size {
     width: 1216px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .card_product_item {
@@ -1210,4 +1210,36 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    width: 100vw;
+    height: 145px;
+    background-position-y: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(/img/uae.jpeg);
+}
+
+.footer_nav {
+    display: flex;
+    gap: 52px;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF;
 }
