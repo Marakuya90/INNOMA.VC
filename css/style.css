@@ -1370,16 +1370,86 @@ footer {
         margin: 0 auto;
         margin-top: 20px;
     }
-.btn_consult {
+
+    .btn_consult {
         width: 310px;
         height: 73.81px;
         /* font-weight: 600; */
         font-size: 18px;
     }
+
     .market {
         margin-top: 814px;
     }
+
     .countries div {
         font-size: 14px;
+        margin-bottom: 56px;
+    }
+
+    .icon {
+        gap: 15px;
+    }
+
+    .icon p {
+        font-size: 14px;
+        width: 117px;
+        text-align: center;
+    }
+
+    .icon span {
+        font-size: 20px;
+    }
+
+    .icon_blue {
+        gap: 15px;
+        justify-content: space-evenly;
+    }
+
+    .icon_blue span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .icon_blue img {
+        width: 24.75px;
+height: 20.85px;
+    }
+
+    .mena {
+        gap: 79px;
+    }
+
+    .mena_icon {
+        grid-template: 1fr 1fr/1fr 1fr;
+        gap: 9.69px;
+    }
+
+    .mena_discription {
+        gap: 17px;
+    }
+
+    .mena_discription p {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .mena_discription button {
+        order: 1;
+    }
+
+    .manager {
+        margin-top: 41px;
+    }
+    .accelerator {
+        margin-top: 95px;
+    }
+    .accelerator h2 {
+        margin-bottom: 0;
+    }
+    .accelerator p {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 }
