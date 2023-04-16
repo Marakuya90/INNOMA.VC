@@ -266,12 +266,8 @@ body {
     background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
     border: none;
     border-radius: 10px;
-    ;
-
     font-weight: 600;
     font-size: 20px;
-    line-height: 80px;
-    /* identical to box height, or 400% */
     color: #FFFFFF;
     margin-top: 20px;
 }
@@ -1302,6 +1298,7 @@ footer {
 
     .main_headline {
         text-align: center;
+        font-size: 32px;
     }
 
     .block {
@@ -1324,9 +1321,11 @@ footer {
     .btnbig_green {
         margin: 0 auto;
     }
+
     .block_rocket {
         margin-bottom: 100px;
     }
+
     .cards {
         grid-template: 1fr 1fr/1fr 1fr;
     }
@@ -1352,9 +1351,35 @@ footer {
 
     .research {
         height: 730px;
-        top: 3788px;
+        top: 3667px;
         background-position-x: 53%;
         background-size: 212%;
         background-position-y: 51%;
+    }
+
+    .research h2 {
+        font-size: 36px;
+        width: 596px;
+    }
+
+    .research p {
+        font-size: 16px;
+        line-height: 30px;
+        width: 491px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+.btn_consult {
+        width: 310px;
+        height: 73.81px;
+        /* font-weight: 600; */
+        font-size: 18px;
+    }
+    .market {
+        margin-top: 814px;
+    }
+    .countries div {
+        font-size: 14px;
     }
 }
