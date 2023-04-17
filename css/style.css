@@ -10,5 +10,19 @@ body .header {
   height: 900px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(/img/uae.jpeg);
 }
+body .header .header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 140px;
+}
+body .header .logo {
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
