@@ -11,7 +11,7 @@ body {
         width: 100vw;
         height: 900px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(/img/uae.jpeg);
-        
+
         .header_nav {
             display: flex;
             justify-content: space-between;
@@ -25,7 +25,45 @@ body {
             font-weight: 700;
             font-size: 24px;
             cursor: pointer;
+             
+            span {
+                color: rgba(0, 177, 233, 1);
+            }
+        }
+        .menu {
+            display: flex;
+            gap: 52px;
+
+            a {
+                text-decoration: none;
+                cursor: pointer;
+                color: #FFFFFF;
+            }
+        }
+        
+        .caption {
+            color: #FFFFFF;
+            line-height: 80px;
+        }
+        
+        .title {
+            font-weight: 700;
+            font-size: 43px;
+            line-height: 60px;
+            text-transform: uppercase;
+            span {
+                padding: 3px 10px;
+                background: #07AF91;
+            }
         }
     }
-   
+    .btn_green {
+        width: 149px;
+        height: 55.66px;
+        background: #07AF91;
+        border-radius: 10px;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+    }
 }

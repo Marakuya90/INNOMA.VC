@@ -24,5 +24,40 @@ body .header .logo {
   font-size: 24px;
   cursor: pointer;
 }
+body .header .logo span {
+  color: rgb(0, 177, 233);
+}
+body .header .menu {
+  display: flex;
+  gap: 52px;
+}
+body .header .menu a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+body .header .caption {
+  color: #FFFFFF;
+  line-height: 80px;
+}
+body .header .title {
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+body .header .title span {
+  padding: 3px 10px;
+  background: #07AF91;
+}
+body .btn_green {
+  width: 149px;
+  height: 55.66px;
+  background: #07AF91;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+}
 
 /*# sourceMappingURL=style.css.map */
