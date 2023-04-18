@@ -10,7 +10,7 @@ body .header {
   height: 900px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(/img/uae.jpeg);
 }
-body .header .header_nav {
+body .header .basic_size .header_nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,38 +19,38 @@ body .header .header_nav {
   color: #FFFFFF;
   margin-bottom: 140px;
 }
-body .header .logo {
+body .header .basic_size .logo {
   font-weight: 700;
   font-size: 24px;
   cursor: pointer;
 }
-body .header .logo span {
+body .header .basic_size .logo span {
   color: rgb(0, 177, 233);
 }
-body .header .menu {
+body .header .basic_size .menu {
   display: flex;
   gap: 52px;
 }
-body .header .menu a {
+body .header .basic_size .menu a {
   text-decoration: none;
   cursor: pointer;
   color: #FFFFFF;
 }
-body .header .caption {
+body .header .basic_size .caption {
   color: #FFFFFF;
   line-height: 80px;
 }
-body .header .title {
+body .header .basic_size .title {
   font-weight: 700;
   font-size: 43px;
   line-height: 60px;
   text-transform: uppercase;
 }
-body .header .title span {
+body .header .basic_size .title span {
   padding: 3px 10px;
   background: #07AF91;
 }
-body .btn_green {
+body .header .basic_size .btn_green {
   width: 149px;
   height: 55.66px;
   background: #07AF91;
@@ -59,27 +59,9 @@ body .btn_green {
   cursor: pointer;
   border: none;
 }
+body .basic_size {
+  width: 1216px;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=style.css.map */
-
-    .research p {
-        font-size: 16px;
-        line-height: 30px;
-        width: 491px;
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-.btn_consult {
-        width: 310px;
-        height: 73.81px;
-        /* font-weight: 600; */
-        font-size: 18px;
-    }
-    .market {
-        margin-top: 814px;
-    }
-    .countries div {
-        font-size: 14px;
-    }
-}

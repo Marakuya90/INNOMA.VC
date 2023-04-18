@@ -11,7 +11,7 @@ body {
         width: 100vw;
         height: 900px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(/img/uae.jpeg);
-
+        .basic_size{
         .header_nav {
             display: flex;
             justify-content: space-between;
@@ -21,6 +21,7 @@ body {
             color: #FFFFFF;
             margin-bottom: 140px;
         }
+
         .logo {
             font-weight: 700;
             font-size: 24px;
@@ -30,6 +31,7 @@ body {
                 color: rgba(0, 177, 233, 1);
             }
         }
+
         .menu {
             display: flex;
             gap: 52px;
@@ -56,14 +58,20 @@ body {
                 background: #07AF91;
             }
         }
+        .btn_green {
+            width: 149px;
+            height: 55.66px;
+            background: #07AF91;
+            border-radius: 10px;
+            color: #FFFFFF;
+            cursor: pointer;
+            border: none;
+        }
     }
-    .btn_green {
-        width: 149px;
-        height: 55.66px;
-        background: #07AF91;
-        border-radius: 10px;
-        color: #FFFFFF;
-        cursor: pointer;
-        border: none;
+    }
+
+    .basic_size {
+        width: 1216px;
+        margin: 0 auto;
     }
 }
