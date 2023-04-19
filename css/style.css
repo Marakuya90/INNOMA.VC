@@ -162,3 +162,40 @@ header {
   width: 385px;
   height: 255px;
 }
+
+.for_whom_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.for_whom_card {
+  display: flex;
+  height: 348px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+.for_whom_card p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+.for_whom_card div {
+  font-weight: 800;
+  font-size: 80px;
+  color: rgba(17, 120, 178, 0.5);
+}
+.for_whom_card span {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}

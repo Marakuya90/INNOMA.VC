@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 $white: rgb(255, 255, 255);
 $light-green: rgb(7, 175, 145);
-$blue: rgba(17, 120, 178, 1);
+$blue: rgb(17, 120, 178);
 $light-blue: rgb(0, 177, 233);
 $black: rgb(0, 0, 0);
 
@@ -157,18 +157,57 @@ header {
 .block {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 184px;
+    margin-bottom: 18.4rem;
     &_rocket {
         align-items: center;
+        margin-bottom: 10.531rem;
     }
     &_img {
-        width: 495px;
-        height: 319px;
+        width: 49.5rem;
+        height: 31.9rem;
     }
 }
 .rocket {
     background: url(/src/img/rocket.jpeg);
     background-size: cover;
-    width: 385px;
-    height: 255px;
+    width: 38.5rem;
+    height: 25.5rem;
 }
+
+.for_whom_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 10rem;
+}
+
+.for_whom_card {
+    display: flex;
+    height: 34.8rem;
+    background: $white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+    p {
+        margin: 0;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+    div {
+        font-weight: 800;
+        font-size: 80px;
+        color: rgba($blue, 0.5);
+    }
+    span {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
