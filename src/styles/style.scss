@@ -1,78 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+$white:rgb(255, 255, 255);
+$light-green:rgb(7, 175, 145);
+$light-blue:rgba(0, 177, 233, 1);
+
+html {
+    font-size: 10px;
+}
+
 body {
-    * {
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        font-family: 'Montserrat';
-        font-style: normal;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-style: normal;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(/src/img/uae.jpeg);
+}
+.header {
+    width: 121.6rem;
+    margin: 0 auto;
+    height: 90rem;
+    
+    &_main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 3.316rem;
     }
 
-    .header {
-        width: 100vw;
-        height: 900px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(/img/uae.jpeg);
-        .basic_size{
-        .header_nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-weight: 500;
-            font-size: 18px;
-            color: #FFFFFF;
-            margin-bottom: 140px;
+    &_logo {
+        color: $white;
+        font-weight: 700;
+        font-size: 24px;
+        cursor: pointer;
+        span {
+            color: $light-blue;
         }
+    }
 
-        .logo {
-            font-weight: 700;
-            font-size: 24px;
+    &_nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        font-size: 18px;
+        color: $white;
+        // margin-bottom: 14rem;
+    }
+
+    &_menu {
+        display: flex;
+        gap: 5.2rem;
+        list-style-type: none;
+        padding: 0;
+
+        &_link {
+            text-decoration: none;
             cursor: pointer;
-             
-            span {
-                color: rgba(0, 177, 233, 1);
-            }
+            color: $white;
         }
+    }
 
-        .menu {
-            display: flex;
-            gap: 52px;
+    &_caption {
+        color: $white;
+        line-height: 80px;
+        padding-top: 13.974rem;
 
-            a {
-                text-decoration: none;
-                cursor: pointer;
-                color: #FFFFFF;
-            }
-        }
-        
-        .caption {
-            color: #FFFFFF;
-            line-height: 80px;
-        }
-        
-        .title {
+        &_title {
             font-weight: 700;
             font-size: 43px;
             line-height: 60px;
             text-transform: uppercase;
             span {
-                padding: 3px 10px;
-                background: #07AF91;
+                padding: 0.3px 1rem;
+                background: $light-green;
             }
         }
-        .btn_green {
-            width: 149px;
-            height: 55.66px;
-            background: #07AF91;
-            border-radius: 10px;
-            color: #FFFFFF;
-            cursor: pointer;
-            border: none;
-        }
     }
+    
+    &_subtitle {
+        font-weight: 400;
+        font-size: 34px;
+        margin-bottom: 34px;
     }
+}
 
-    .basic_size {
-        width: 1216px;
-        margin: 0 auto;
-    }
+.subtitle_mobile {
+    display: none;
+}
 
+.btn_green {
+    width: 14.9rem;
+    height: 5.566rem;
+    background: $light-green;
+    border-radius: 10px;
+    color: $white;
+    cursor: pointer;
+    border: none;
+}
+
+.btn_form {
+    font-weight: 600;
+    font-size: 20px;
+    color: $white;
+    width: 21.9rem;
+    height: 80px;
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
 }
