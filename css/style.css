@@ -246,16 +246,11 @@ header {
   border-radius: 50%;
 }
 
-.market {
-  margin-top: 749px;
-}
-
-.countries {
+.market_countries {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-.countries div {
+.market_countries div {
   font-weight: 400;
   font-size: 20px;
   line-height: 60px;
@@ -264,30 +259,27 @@ header {
   background: #EEF1F4;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 56px;
 }
-
-.countries div:active {
+.market_countries div:active {
   font-weight: 700;
   color: #FFFFFF;
   background: #88BBD8;
 }
 
 .mena {
-  background-image: url(/img/map.svg);
+  background-image: url(/src/img/map.svg);
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 167px;
+  padding-top: 56px;
 }
-
 .mena_discription {
   width: 294px;
   display: flex;
   flex-direction: column;
   gap: 29px;
 }
-
 .mena_discription p {
   margin: 0;
   font-weight: 600;
@@ -296,19 +288,13 @@ header {
   text-transform: uppercase;
   color: #000000;
 }
-
-#highlight {
-  color: rgb(7, 175, 145);
-}
-
 .mena_discription span {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
 }
-
-.mena_discription button {
+.mena_discription_btn {
   display: block;
   width: 252px;
   height: 69.52px;
@@ -320,13 +306,17 @@ header {
   color: #FFFFFF;
 }
 
-.mena_icon {
+#highlight {
+  color: rgb(7, 175, 145);
+}
+
+.mena_icons {
   display: grid;
   grid-template: 200px 200px/289px 289px;
   gap: 20px;
 }
 
-.icon {
+.mena_icon_item {
   background: #FFFFFF;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
   border-radius: 10px;
@@ -335,18 +325,26 @@ header {
   align-items: center;
   gap: 30px;
 }
+.mena_icon_item span {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 20px;
+  color: rgba(17, 120, 178, 0.5);
+  margin-top: 65px;
+}
+.mena_icon_item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(16, 16, 16, 0.5);
+}
 
 .icon_blue {
   background: #1178B2;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  display: flex;
   border-bottom: solid #FFFFFF;
-  flex-direction: column;
-  align-items: center;
   gap: 25px;
 }
-
 .icon_blue img {
   width: 18px;
   display: block;
@@ -354,28 +352,13 @@ header {
   margin-top: 45px;
   border-bottom: solid #FFF;
 }
-
 .icon_blue span {
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
   color: #FFFFFF;
   width: 167px;
-}
-
-.icon span {
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 20px;
-  color: rgba(17, 120, 178, 0.5);
-  margin-top: 65px;
-}
-
-.icon p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: rgba(16, 16, 16, 0.5);
+  margin-top: 0;
 }
 
 .manager {
@@ -383,13 +366,11 @@ header {
   align-items: center;
   gap: 10px;
 }
-
 .manager label {
   font-weight: 400;
   font-size: 14px;
   color: #727272;
 }
-
 .manager span {
   font-weight: 500;
 }
